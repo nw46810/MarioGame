@@ -1,0 +1,50 @@
+<!DOCTYPE> 
+<html>
+<head>
+	<title>Mario Collector</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class= "wrapper">
+	<header>
+		<h1 id ="name">Mario Collector!!</h1>
+	</header>
+
+
+	<div class="instructions">
+		<p>! You are given a target Random Power</p>
+		<p>! Click on one of the four power-up items to reach your target</p>
+		<p>! Each power-up item has a hidden value</p>
+		<p>! Be careful not to go over.</p>
+	</div>
+	<div class= "table">
+	<div class="random">
+		<p id="rp">Random Power</p>
+		<div class="number"></div>
+	</div>
+	<div class="outcome">
+		<p>Wins: <span id='wins'></span></p>
+		<p>Losses: <span id='losses'></span></p>
+	</div>
+
+	<div class='power'>
+		<img src="assets/images/mushroom.png" class='click' id='blue'>
+		<img src="assets/images/flower.png" class='click' id='red'>
+		<img src="assets/images/star.png" class='click' id='yellow'>
+		<img src="assets/images/feather.png" class='click' id='green'>
+	</div>
+
+	<div class='score'>
+		<h3>Mario Power Level:</h3>
+	</div>
+
+	<div class='currentPower'></div>
+	</div> <!--table-->
+	</div> <!-- wrapper -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
