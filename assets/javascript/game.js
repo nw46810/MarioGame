@@ -1,5 +1,4 @@
 var wins = 0;
-// var winsTotal = wins;
 var losses = 0;
 
 var currentPower = 0;
@@ -7,7 +6,7 @@ var currentPower = 0;
 /**Random Number**/
 var number = Math.floor((Math.random()* 100) + 19);
 
-/**Random Crystal Power**/
+/**Random Power up**/
 var blue = Math.floor((Math.random()* 12) + 1);
 var red = Math.floor((Math.random()* 12) + 1);
 var yellow = Math.floor((Math.random()* 12) + 1);
